@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111111">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="Candys Visuals – Videoschnitt, Reels, YouTube, Content-Strategie und Social-Media-Betreuung von Fabian Scherner aus dem Raum Mosbach.">
+  <title>Candys Visuals | Videoschnitt & Social Media – Fabian Scherner</title>
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <style>
+    :root{color-scheme:light;--ink:#101010;--paper:#fafaf8;--chalk:#fff;--line:#dededb;--quiet:#60605e;--dark:#101010}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:82px}
+    body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+    a{color:inherit}button,a{-webkit-tap-highlight-color:transparent}a:focus-visible,button:focus-visible,video:focus-visible{outline:3px solid #777;outline-offset:4px}
+    .container{width:min(1200px,calc(100% - 48px));margin-inline:auto}
+    .eyebrow{font-size:.74rem;letter-spacing:.19em;text-transform:uppercase;font-weight:750}
+    .muted{color:var(--quiet)}
+    .header{position:sticky;top:0;z-index:20;background:#fafaf8f2;backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+    .nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+    .brand{display:inline-flex;align-items:center;max-width:215px;min-width:118px}
+    .brand img{display:block;width:100%;height:auto}
+    .navlinks{display:flex;gap:clamp(12px,2vw,31px);align-items:center}
+    .navlinks a{font-size:.86rem;font-weight:650;text-decoration:none;white-space:nowrap}
+    .btn{border:1px solid #111;display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:11px 20px;font-size:.88rem;letter-spacing:.02em;text-decoration:none;font-weight:750;gap:10px;transition:background .2s,color .2s,transform .2s}
+    .btn:hover{transform:translateY(-2px)}.btn-light{background:#fff;color:#111}.btn-light:hover{background:#dedede}.btn-outline{background:transparent;color:#fff;border-color:#818181}.btn-outline:hover{background:#fff;color:#111}
+    .btn-ink{background:#111;color:#fff}.btn-ink:hover{background:#3b3b3b}
+    .hero{background:var(--dark);color:#fff;overflow:hidden}
+    .hero-grid{display:grid;grid-template-columns:1.13fr .87fr;gap:clamp(34px,5vw,90px);min-height:630px;align-items:center;padding-block:80px}
+    .hero .eyebrow{color:#aaa}.hero h1{font-size:clamp(3.6rem,7.5vw,8.2rem);font-weight:850;line-height:.97;letter-spacing:-.085em;margin:27px 0}
+    .hero h1 span{display:block;color:#858585}.hero p{color:#cdcdcd;font-size:clamp(1.05rem,1.65vw,1.25rem);max-width:530px;margin:0 0 32px}
+    .actions{display:flex;flex-wrap:wrap;gap:12px}
+    .showcase{position:relative;display:flex;gap:16px;align-items:center;justify-content:center;padding:25px 4px}
+    .phone{width:min(48%,235px);background:#252525;border:6px solid #242424;box-shadow:0 27px 75px #000b;aspect-ratio:9/16;overflow:hidden;border-radius:17px;position:relative}
+    .phone:nth-child(2){transform:translateY(40px)}.phone img{width:100%;height:100%;object-fit:cover;display:block}.phone:after{content:'▶';display:grid;place-items:center;position:absolute;inset:0;margin:auto;width:54px;height:54px;border:1px solid #ffffffbb;border-radius:50%;color:#fff;background:#0008;font-size:18px;padding-left:3px}
+    .strip{border-bottom:1px solid var(--line);padding:22px 0}.strip .container{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px 28px}.strip span{font-size:.75rem;font-weight:800;letter-spacing:.13em;text-transform:uppercase}
+    section{padding:100px 0}.section-head{display:flex;justify-content:space-between;gap:32px;align-items:end;margin-bottom:35px}.section-head p{max-width:420px;margin:0;color:var(--quiet)}
+    h2{font-size:clamp(2.3rem,5vw,5rem);line-height:1.02;letter-spacing:-.065em;margin:12px 0 0;font-weight:850}
+    .services{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.service{min-height:220px;border:1px solid var(--line);padding:30px;background:#fff;display:flex;flex-direction:column}.service .num{font-size:.78rem;color:#777;font-weight:700}.service h3{font-size:clamp(1.3rem,2vw,1.72rem);line-height:1.15;letter-spacing:-.035em;margin:30px 0 12px}.service p{color:var(--quiet);font-size:.95rem;margin:auto 0 0}
+    .portfolio{background:#ededeb}.work-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.work-card{background:#fff;border:1px solid #d0d0cd;overflow:hidden}.video-wrap{position:relative;background:#171717;display:flex;justify-content:center;aspect-ratio:4/4.45}.video-wrap video{display:block;width:100%;height:100%;max-width:330px;object-fit:contain;background:#111}.work-copy{padding:25px 25px 29px}.work-copy .eyebrow{color:#777}.work-copy h3{font-size:clamp(1.5rem,3vw,2rem);letter-spacing:-.035em;line-height:1.15;margin:12px 0 8px}.work-copy p{color:var(--quiet);margin:0}.clip-note{font-size:.84rem;margin-top:10px!important}
+    .about{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,6vw,95px)}.about .copy{font-size:1.13rem;color:#424242}.about .copy p:first-child{margin-top:6px}.local{font-size:.8rem;text-transform:uppercase;letter-spacing:.18em;font-weight:700;border-top:1px solid var(--line);padding-top:24px;margin-top:30px}
+    .contact{background:#111;color:#fff}.contact-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:50px;align-items:end}.contact h2{margin:15px 0 28px}.contact .small{font-size:.96rem;color:#c5c5c5}.contact aside{border-top:1px solid #5c5c5c;padding-top:23px;color:#aaa;font-size:.9rem}
+    footer{background:#111;color:#aaa;border-top:1px solid #3d3d3d;padding:28px 0}.footer-inner{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:15px}.footer-inner a{color:#fff;font-size:.88rem;text-decoration:underline;text-underline-offset:4px;margin-left:19px}
+    @media(max-width:900px){.hero-grid{grid-template-columns:1fr;min-height:unset;gap:10px}.hero h1{max-width:740px}.showcase{max-width:550px;margin:auto;width:100%;padding:15px 0 55px}.phone{max-width:215px}.services{grid-template-columns:repeat(2,1fr)}.contact-grid{grid-template-columns:1fr;gap:20px}}
+    @media(max-width:610px){.container{width:min(100% - 32px,1200px)}.nav{min-height:68px}.brand{max-width:156px;min-width:120px}.navlinks{gap:10px}.navlinks a:not(.contact-link){display:none}.navlinks .contact-link{font-size:.82rem;border:1px solid #111;padding:8px 10px}.hero-grid{padding-block:53px}.hero h1{font-size:clamp(3.05rem,12vw,4.7rem);margin:22px 0}.hero p{font-size:1rem}.showcase{max-width:410px}.phone:nth-child(2){transform:translateY(22px)}section{padding:73px 0}.section-head{display:block}.section-head p{margin-top:18px}.services,.work-grid,.about{grid-template-columns:1fr}.service{min-height:175px;padding:24px}.service h3{margin:20px 0 10px}.video-wrap{aspect-ratio:1/1.13}.work-copy{padding:21px}.about{gap:15px}.footer-inner a{margin:0 16px 0 0}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}.btn:hover{transform:none}}
+    @media (hover:hover) and (pointer:fine){.service,.work-card,.phone{transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}.service:hover,.work-card:hover{transform:translateY(-5px);box-shadow:0 16px 42px #00000016;border-color:#999}.phone:hover{transform:translateY(-7px) rotate(-1deg)}.phone:nth-child(2):hover{transform:translateY(32px) rotate(1deg)}.navlinks a:not(.contact-link):hover{text-decoration:underline;text-underline-offset:6px}}
+    @media(prefers-reduced-motion:reduce){.service,.work-card,.phone{transition:none!important}.service:hover,.work-card:hover,.phone:hover,.phone:nth-child(2):hover{transform:none!important}}
+    .contact-grid{align-items:start}.contact-form{border:1px solid #666;padding:clamp(20px,3vw,32px);background:#191919}.contact-form h3{font-size:1.35rem;margin:0 0 14px}.form-field{display:block;font-weight:650;font-size:.9rem;margin:16px 0 7px}.form-field input,.form-field textarea,.form-field select{display:block;margin-top:6px;width:100%;border:1px solid #858585;border-radius:0;padding:12px;background:#fff;color:#111;font:inherit}.form-field textarea{min-height:120px;resize:vertical}.form-note{font-size:.83rem;color:#ccc}.contact-form .btn{margin-top:14px;cursor:pointer}.contact-form .btn:disabled{opacity:.55;cursor:not-allowed;transform:none}.contact-form a{color:#fff}.consent{display:flex;gap:10px;align-items:start;margin-top:12px;font-size:.87rem;color:#e0e0e0}.consent input{margin-top:5px}.form-fallback{border-left:3px solid #fff;padding-left:12px;color:#eee}
+  </style>
+</head>
+<body>
+<header class="header">
+  <div class="container nav">
+    <a href="#start" class="brand" aria-label="Candys Visuals – Startseite"><img src="assets/candys-logo.png" width="1100" height="312" alt="Candys Visuals"></a>
+    <nav class="navlinks" aria-label="Hauptnavigation"><a href="#leistungen">Leistungen</a><a href="#arbeiten">Portfolio</a><a href="#ueber-mich">Über mich</a><a class="contact-link" href="#kontakt">Projekt anfragen ↗</a></nav>
+  </div>
+</header>
+<main id="start">
+  <div class="hero"><div class="container hero-grid">
+    <div>
+      <div class="eyebrow">FABIAN SCHERNER / CANDYS VISUALS / MOSBACH</div>
+      <h1>CONTENT, DER<br>AUFFÄLLT.<span>VIDEOS, DIE<br>BLEIBEN.</span></h1>
+      <p>Von der Idee über die Aufnahme bis zum fertigen Video: Content-Planung, Videoproduktion, Schnitt und Social-Media-Betreuung für Unternehmen und Creator.</p>
+      <div class="actions"><a class="btn btn-light" href="#arbeiten">Arbeiten ansehen ↘</a><a class="btn btn-outline" href="#kontakt">Projekt besprechen ↗</a></div>
+    </div>
+    <a class="showcase" href="#arbeiten" aria-label="Portfolio-Videos ansehen"><span class="phone"><img src="assets/cantillon-poster.jpg" alt="Vorschau des Erklärvideos Cantillon-Effekt"></span><span class="phone"><img src="assets/facetronic-poster.jpg" alt="Vorschau des Facetronic-Reels"></span></a>
+  </div></div>
+  <div class="strip"><div class="container"><span>Short-form Video</span><span>YouTube Editing</span><span>Content-Strategie</span><span>Social-Media-Betreuung</span><span>On-location Video</span></div></div>
+  <section id="leistungen"><div class="container">
+    <div class="section-head"><div><div class="eyebrow">01 — LEISTUNGEN</div><h2>KONZEPT.<br>KAMERA. CUT.</h2></div><p>Vom einzelnen Reel bis zum regelmäßigen Content: Wir finden das Format, das zu deinem Unternehmen und deinem Ziel passt.</p></div>
+    <div class="services">
+      <article class="service"><span class="num">01 / SHORT FORM</span><h3>Reels, TikToks & Shorts</h3><p>Schnitt, Tempo, Untertitel und Bildsprache für kurze Hochformatvideos.</p></article>
+      <article class="service"><span class="num">02 / LONG FORM</span><h3>YouTube-Videoschnitt</h3><p>Strukturierter Videoschnitt für längere Formate – vom Rohmaterial zum fertigen Video.</p></article>
+      <article class="service"><span class="num">03 / CONTENT</span><h3>Content-Planung & Strategie</h3><p>Videoideen, Formate und Redaktionsplanung abgestimmt auf deine Zielgruppe.</p></article>
+      <article class="service"><span class="num">04 / SOCIAL</span><h3>Social-Media-Betreuung</h3><p>Unterstützung bei Content-Erstellung, Planung und deinem regelmäßigen Auftritt.</p></article>
+      <article class="service"><span class="num">05 / VIDEO</span><h3>Aufnahmen vor Ort</h3><p>Authentisches Videomaterial für dein Studio, dein Unternehmen oder deine Marke.</p></article>
+    </div>
+  </div></section>
+  <section class="portfolio" id="arbeiten"><div class="container">
+    <div class="section-head"><div><div class="eyebrow">02 — PORTFOLIO</div><h2>ECHTE ARBEITEN.<br>ECHTE EINBLICKE.</h2></div><p>Hier siehst du zwei ausgewählte Schnittbeispiele. Die Videos starten erst, wenn du auf Play klickst.</p></div>
+    <div class="work-grid">
+      <article class="work-card">
+        <div class="video-wrap"><video controls playsinline preload="none" poster="assets/cantillon-poster.jpg" aria-label="Cantillon-Effekt: animiertes Erklärvideo"><source src="videos/cantillon-web.mp4" type="video/mp4">Dein Browser unterstützt das Videoformat nicht.</video></div>
+        <div class="work-copy"><div class="eyebrow">ERKLÄRVIDEO / SHORT FORM</div><h3>Cantillon-Effekt</h3><p>Ein animiertes Hochformat-Video mit Illustrationen, Typografie und visuellem Storytelling.</p></div>
+      </article>
+      <article class="work-card">
+        <div class="video-wrap"><video controls playsinline preload="none" poster="assets/facetronic-poster.jpg" aria-label="Facetronic: Talking-Head-Reel"><source src="videos/facetronic-web.mp4" type="video/mp4">Dein Browser unterstützt das Videoformat nicht.</video></div>
+        <div class="work-copy"><div class="eyebrow">REEL / TALKING HEAD</div><h3>Facetronic</h3><p>Vertikales Sprecher-Video mit Schnitt, Texteinblendungen und klarem Fokus auf die Botschaft.</p></div>
+      </article>
+    </div>
+    <p style="margin:28px 0 0"><a class="btn btn-ink" href="https://www.instagram.com/candys_visuals/" target="_blank" rel="noopener noreferrer">Mehr Arbeiten auf Instagram ↗</a></p>
+  </div></section>
+  <section id="ueber-mich"><div class="container about"><div><div class="eyebrow">03 — ÜBER MICH</div><h2>HI, ICH BIN<br>FABIAN.</h2></div><div class="copy"><p>Ich bin Fabian Scherner und stehe hinter Candys Visuals. Ich unterstütze Unternehmen und Creator von der Content-Idee über die Aufnahme bis zum fertigen Video – abgestimmt auf ihren Auftritt.</p><p>Ob Reels, längere YouTube-Videos oder Content-Aufnahmen vor Ort: Ich begleite dich beim Schnitt und auf Wunsch bei Planung und Social-Media-Betreuung.</p><p class="local">Mosbach & Umgebung · Remote-Zusammenarbeit möglich</p></div></div></section>
+  <section id="kontakt" class="contact"><div class="container contact-grid"><div><div class="eyebrow">04 — KONTAKT</div><h2>LASS UNS<br>WAS MACHEN.</h2><p class="small">Du möchtest Videos planen, aufnehmen oder schneiden lassen? Erzähl mir von deinem Projekt – du kannst mich derzeit direkt auf Instagram erreichen oder mir eine Projektanfrage über das Formular schicken. Bitte aktiviere das Formular erst, nachdem die Zustellung und Datenschutzhinweise geprüft wurden.</p><a class="btn btn-light" href="https://www.instagram.com/candys_visuals/" target="_blank" rel="noopener noreferrer">Auf Instagram anfragen ↗</a></div><aside><strong>CANDYS VISUALS</strong><br>Fabian Scherner<br>Mosbach & Umgebung<br><br>E-Mail: <a href="mailto:info@candys-visuals.de" style="color:white">info@candys-visuals.de</a></aside><div class="contact-form" id="anfrage"><div class="eyebrow">PROJEKTANFRAGE</div><h3>Erzähl mir von deiner Idee.</h3><p class="form-note">Das Formular ist technisch mit Formspree verbunden. Bitte vor Veröffentlichung die Datenschutzhinweise und die E-Mail-Zustellung prüfen.</p><form id="projektformular" action="https://formspree.io/f/xvkgallv" method="POST"><label class="form-field">Dein Name <input name="name" autocomplete="name" required maxlength="120"></label><label class="form-field">Deine E-Mail <input type="email" name="email" autocomplete="email" required maxlength="254"></label><label class="form-field">Wobei brauchst du Unterstützung? <select name="leistung" required><option value="">Bitte wählen</option><option>Reels, TikToks & Shorts</option><option>Videoproduktion vor Ort</option><option>YouTube-Videoschnitt</option><option>Content-Planung</option><option>Social-Media-Betreuung</option><option>Sonstiges</option></select></label><label class="form-field">Dein Projekt <textarea name="nachricht" required maxlength="4000"></textarea></label><div aria-hidden="true" style="position:absolute;left:-9999px"><label>Dieses Feld leer lassen<input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label></div><label class="consent"><input type="checkbox" name="datenschutz_bestaetigt" value="zur_kenntnis_genommen" required><span>Ich habe die <a href="datenschutz.html">Datenschutzerklärung</a> zur Kenntnis genommen.</span></label><button class="btn btn-light" type="submit">Projektanfrage senden ↗</button></form><p class="form-note">Mit dem Absenden werden deine Angaben zur Bearbeitung der Anfrage an Formspree übertragen.</p></div></div></section>
+</main>
+<footer><div class="container footer-inner"><span>© <span id="year">2026</span> Candys Visuals · Fabian Scherner</span><div><a href="https://www.instagram.com/candys_visuals/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></div></div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+</body></html>
